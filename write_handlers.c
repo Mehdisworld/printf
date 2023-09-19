@@ -247,5 +247,3 @@ int write_pointer(char buffer[], int indx, int lgth,
 		buffer[--indx] = ext_c;
 	return (write(1, &buffer[indx], BUFF_SIZE - indx - 1));
 }
-
-
